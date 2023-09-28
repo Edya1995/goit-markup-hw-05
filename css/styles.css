@@ -520,7 +520,7 @@ textarea {
   margin-bottom: 16px;
 }
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-lable {
   display: block;
@@ -563,16 +563,21 @@ textarea {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  transition: fill 250ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea {
   height: 120px;
   width: 100%;
   border: 1px solid;
   color: #2e2f4266;
+  background-color: transparent;
+  outline: transparent;
   border-radius: 4px;
   padding: 8px 16px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 .modal-textarea:focus {
   outline: none;
