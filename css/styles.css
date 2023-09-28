@@ -425,3 +425,6 @@ img {
   border: 1px solid var(--primary-color);
   border-top: 0;
 }
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
