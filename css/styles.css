@@ -460,12 +460,12 @@ textarea {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 72px;
   padding-bottom: 24px;
   padding-right: 24px;
   padding-left: 24px;
   transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close {
@@ -545,12 +545,12 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 24px;
+  height: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #ffffff;
   background-color: #e7e9fc;
-  width: 24px;
-  height: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
