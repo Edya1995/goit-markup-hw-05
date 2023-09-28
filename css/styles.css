@@ -425,6 +425,42 @@ img {
   border: 1px solid var(--primary-color);
   border-top: 0;
 }
+/* Modal */
 .backdrop {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out;
 }
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.modal {
+  position: relative;
+  width: 408px;
+  height: 584px;
+  background-color: var(--light-bg);
+  border-radius: 4px;
+  padding-top: 72px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  transform: scale(1);
+  transition: transform 250ms ease-in-out;
+}
+.backdrop.is-open .modal {
+  transform: scale(0);
+}
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+/* END Modal */
