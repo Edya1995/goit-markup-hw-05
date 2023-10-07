@@ -200,6 +200,9 @@ img {
 .footer-list-icon {
   fill: #f4f4fd;
 }
+.footer-subscribe-container {
+  margin-left: 80px;
+}
 .footer-subscribe-text {
   margin-bottom: 16px;
   font-weight: 500;
