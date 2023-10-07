@@ -678,9 +678,7 @@ textarea {
   justify-content: center;
   fill: transparent;
 }
-.modal-checkbox-icon {
-  fill: #2e2f42;
-}
+
 .modal-button {
   display: block;
   margin: 0 auto;
@@ -693,7 +691,7 @@ textarea {
 }
 /* END Modal */
 
-.modal-checkbox:checked + .checkbox-lable .modal-checkbox-check {
+.modal-checkbox:checked + .checkbox-lable.modal-checkbox-check {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
