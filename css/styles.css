@@ -693,7 +693,7 @@ textarea {
 }
 /* END Modal */
 
-.input[type='checkbox']:checked + .modal-checkbox-icon {
+.modal-checkbox:checked + .checkbox-lable .modal-checkbox-check {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
