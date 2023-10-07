@@ -633,3 +633,9 @@ textarea {
   line-height: 1.17;
 }
 /* END Modal */
+
+input:checked .modal-checkbox-icon {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
