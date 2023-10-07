@@ -632,9 +632,12 @@ textarea {
 .checkbox-lable {
   line-height: 1.17;
 }
+.modal-checkbox-privacy {
+  color: var(--text-button-color);
+}
 /* END Modal */
 
-input:checked .modal-checkbox-icon {
+.checked .modal-checkbox-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
